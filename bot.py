@@ -68,6 +68,11 @@ async def on_message(message):
         and message.channel.id == FARM_CHANNEL_ID
         and not message.attachments
     ):
+        # reacts with "I" "L" "Y" "heart emoji" to every message
+        await message.add_reaction("🇮")
+        await message.add_reaction("🇱")
+        await message.add_reaction("🇾")
+        await message.add_reaction("❤️")
         for word in message.content.split():
             word = word.lower()
             if word in farm_emoji_dict:
