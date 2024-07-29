@@ -39,6 +39,10 @@ farm_emoji_dict = {
     "egg": "🥚",
     "eggs": "🥚",
     "sugarcane": "🎋",
+    "barbecue": "🍖",
+    "earth": "🌍",
+    "harvest": "🌾",
+    "outhouse": "🏠",
 }
 
 
